@@ -1,5 +1,5 @@
-name:  sample_pubspec
+name: easy_access_pubspec
 version: 1.0.0
-description:  devdactic easy paging application
+description: devdactic easy access application
 dependencies:
   stream: any
