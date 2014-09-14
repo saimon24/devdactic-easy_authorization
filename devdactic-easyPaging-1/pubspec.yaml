@@ -1,0 +1,5 @@
+name:  sample_pubspec
+version: 1.0.0
+description:  devdactic easy paging application
+dependencies:
+  stream: any
