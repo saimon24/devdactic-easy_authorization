@@ -1,0 +1,28 @@
+[:page partOf="devdactic"]
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>devdactic code school</title>
+    
+    <link href="packages/bootjack/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+    
+      <form class="form-signin" role="form" action="/s_login" method="post">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        
+    [:if request.uri.queryParameters["error"] != null]
+    <div class="error">Incorrect username or password.</div>
+    [/if]
+    
+        <input name="s_username" type="text" class="form-control" placeholder="Username" required autofocus>
+        <input name="s_password" type="password" class="form-control" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <br>For testing: beginner/1337 ; admin/1337
+      </form>
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+name: easy_access_pubspec
+version: 1.0.0
+description: devdactic easy access application
+dependencies:
+  bootjack: any
+  rikulo_security: any
+  stream: any
