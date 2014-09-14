@@ -1,0 +1,5 @@
+name: easy_access_pubspec
+version: 1.0.0
+description: devdactic easy access application
+dependencies:
+  stream: any
